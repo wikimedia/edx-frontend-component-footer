@@ -1,5 +1,5 @@
 {
-  "name": "@edx/frontend-component-footer",
+  "name": "edx-frontend-component-footer",
   "version": "1.0.0-semantically-released",
   "description": "Footer component for use when building Open edX frontend applications",
   "main": "dist/index.js",
