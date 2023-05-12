@@ -44,21 +44,21 @@ class SiteFooter extends React.Component {
     const { config } = this.context;
 
     return (
-      <div class="wrapper wrapper-footer">
-        <footer id="footer-openedx" class="footer">
-            <div class="footer-container">
-                <nav class="nav-colophon" aria-label="${_('About')}">
+      <div className="wrapper wrapper-footer">
+        <footer id="footer-openedx" className="footer">
+            <div className="footer-container">
+                <nav className="nav-colophon" aria-label="${_('About')}">
                     <ol>
-                    <li class="nav-colophon">
+                    <li className="nav-colophon">
                         <a href="https://wikimediafoundation.org/privacy-policy/" target="_blank">Privacy Policy</a>
                     </li>
-                    <li class="nav-colophon">
+                    <li className="nav-colophon">
                         <a href="https://edly.io/euserpp/" target="_blank">"Edly Privacy Policy"</a>
                     </li>
                     </ol>
                 </nav>
 
-                <div class="wrapper-logo">
+                <div className="wrapper-logo">
                     <p>
                       <a href={config.LMS_BASE_URL}>
                           <img 
