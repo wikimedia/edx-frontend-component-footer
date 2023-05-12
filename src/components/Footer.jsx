@@ -45,43 +45,39 @@ class SiteFooter extends React.Component {
 
     return (
       <div class="wrapper wrapper-footer">
-        <footer
-          role="contentinfo"
-          className="footer"
-          id="footer-openedx"
-        >
-          <div class="footer-container">
-              <nav class="nav-colophon" aria-label="${_('About')}">
-                  <ol>
-                  <li class="nav-colophon">
-                      <a href="https://wikimediafoundation.org/privacy-policy/" target="_blank">Privacy Policy</a>
-                  </li>
-                  <li class="nav-colophon">
-                      <a href="https://edly.io/euserpp/" target="_blank">"Edly Privacy Policy"</a>
-                  </li>
-                  </ol>
-              </nav>
+        <footer id="footer-openedx" class="footer">
+            <div class="footer-container">
+                <nav class="nav-colophon" aria-label="${_('About')}">
+                    <ol>
+                    <li class="nav-colophon">
+                        <a href="https://wikimediafoundation.org/privacy-policy/" target="_blank">Privacy Policy</a>
+                    </li>
+                    <li class="nav-colophon">
+                        <a href="https://edly.io/euserpp/" target="_blank">"Edly Privacy Policy"</a>
+                    </li>
+                    </ol>
+                </nav>
 
-              <div class="wrapper-logo">
-                  <p>
-                  <a href={config.LMS_BASE_URL}>
-                      <img 
-                        src={logo || config.LOGO_TRADEMARK_URL} 
-                        alt={intl.formatMessage(messages['footer.logo.altText'])}
-                      />
-                  </a>
-                  </p>
-              </div>
-              <div className="flex-grow-1" />
-              {showLanguageSelector && (
-                <LanguageSelector
-                  options={supportedLanguages}
-                  onSubmit={onLanguageSelected}
-                />
-              )}
+                <div class="wrapper-logo">
+                    <p>
+                      <a href={config.LMS_BASE_URL}>
+                          <img 
+                            src={logo || config.LOGO_TRADEMARK_URL} 
+                            alt={intl.formatMessage(messages['footer.logo.altText'])}
+                          />
+                      </a>
+                    </p>
+                </div>
+                <div className="flex-grow-1" />
+                {showLanguageSelector && (
+                  <LanguageSelector
+                    options={supportedLanguages}
+                    onSubmit={onLanguageSelected}
+                  />
+                )}
             </div>
         </footer>
-      </div>
+    </div>
     );
   }
 }
