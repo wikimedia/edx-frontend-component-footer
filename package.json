@@ -1,5 +1,5 @@
 {
-  "name": "edx-frontend-component-footer",
+  "name": "@wikimedia/frontend-component-footer",
   "version": "3.0.0",
   "description": "Footer component for use when building Open edX frontend applications",
   "main": "dist/index.js",
@@ -26,7 +26,7 @@
     "type": "git",
     "url": "git+https://github.com/openedx/frontend-component-footer.git"
   },
-  "author": "edX",
+  "author": "edly",
   "license": "AGPL-3.0",
   "bugs": {
     "url": "https://github.com/openedx/frontend-component-footer/issues"
