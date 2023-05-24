@@ -1,6 +1,6 @@
 {
   "name": "@wikimedia/frontend-component-footer",
-  "version": "3.0.0",
+  "version": "1.0.0",
   "description": "Footer component for use when building Open edX frontend applications",
   "main": "dist/index.js",
   "publishConfig": {
@@ -63,5 +63,13 @@
     "prop-types": "^15.5.10",
     "react": "^16.9.0 || ^17.0.0",
     "react-dom": "^16.9.0 || ^17.0.0"
-  }
+  },
+  "directories": {
+    "example": "example"
+  },
+  "keywords": [
+    "edx",
+    "edly",
+    "wikimedia"
+  ]
 }
