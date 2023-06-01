@@ -1,3 +1,5 @@
+/* global gettext */
+
 import React from 'react';
 import PropTypes from 'prop-types';
 import { injectIntl, intlShape } from '@edx/frontend-platform/i18n';
@@ -50,10 +52,10 @@ class SiteFooter extends React.Component {
                 <nav className="nav-colophon" aria-label="${_('About')}">
                     <ol>
                     <li className="nav-colophon">
-                        <a href="https://wikimediafoundation.org/privacy-policy/" target="_blank">Privacy Policy</a>
+                        <a href="https://wikimediafoundation.org/privacy-policy/" target="_blank">{gettext('Privacy Policy')}</a>
                     </li>
                     <li className="nav-colophon">
-                        <a href="https://edly.io/euserpp/" target="_blank">"Edly Privacy Policy"</a>
+                        <a href="https://edly.io/euserpp/" target="_blank">{gettext('Edly Privacy Policy')}</a>
                     </li>
                     </ol>
                 </nav>
