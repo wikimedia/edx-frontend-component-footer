@@ -151,6 +151,16 @@ const messages = defineMessages({
     defaultMessage: 'Page Footer',
     description: 'aria-label for the footer component',
   },
+  'footer.policy': {
+    id: 'footer.policy',
+    defaultMessage: 'Privacy Policy',
+    description: 'The text for the privacy policy link in the footer',
+  },
+  'footer.edly.policy': {
+    id: 'footer.edly.policy',
+    defaultMessage: 'Edly Privacy Policy',
+    description: 'The text for the edly privacy policy link in the footer',
+  },
 });
 
 export default messages;
