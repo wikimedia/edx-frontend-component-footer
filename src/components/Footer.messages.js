@@ -154,12 +154,12 @@ const messages = defineMessages({
   'footer.policy': {
     id: 'footer.policy',
     defaultMessage: 'Privacy Policy',
-    description: 'aria-label for the footer component',
+    description: 'The text for the privacy policy link in the footer',
   },
   'footer.edly.policy': {
     id: 'footer.edly.policy',
     defaultMessage: 'Edly Privacy Policy',
-    description: 'aria-label for the footer component',
+    description: 'The text for the edly privacy policy link in the footer',
   },
 });
 
