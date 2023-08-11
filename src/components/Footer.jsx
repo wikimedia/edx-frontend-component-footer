@@ -52,10 +52,10 @@ class SiteFooter extends React.Component {
                 <nav className="nav-colophon" aria-label="${_('About')}">
                     <ol>
                     <li className="nav-colophon">
-                        <a href="https://wikimediafoundation.org/privacy-policy/" target="_blank">{gettext('Privacy Policy')}</a>
+                        <a href="https://wikimediafoundation.org/privacy-policy/" target="_blank">{intl.formatMessage(messages['footer.policy'])}</a>
                     </li>
                     <li className="nav-colophon">
-                        <a href="https://edly.io/euserpp/" target="_blank">{gettext('Edly Privacy Policy')}</a>
+                        <a href="https://edly.io/euserpp/" target="_blank">{intl.formatMessage(messages['footer.edly.policy'])}</a>
                     </li>
                     </ol>
                 </nav>
