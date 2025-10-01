@@ -1,4 +1,3 @@
-import '../../_footer.scss';
-import StudioFooter from '../Footer';
+import StudioFooter from './StudioFooter';
 
 export default StudioFooter;
