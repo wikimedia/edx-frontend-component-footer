@@ -131,6 +131,9 @@ footer.wrapper-footer {
   }
 }
 
+/* --------------------- HEADER STYLES --------------------- */
+
+/* *** Header logo dark theme style *** */
 .indigo-dark-theme {
 
   .footer-container {
@@ -145,5 +148,26 @@ footer.wrapper-footer {
         filter: invert(1);
       }
     }
+  }
+}
+
+/* *** Header navigation style *** */
+header {
+  &.learning-header {
+    .course-title-lockup {
+      .nav-course {
+        &:nth-of-type(2) {
+          margin-left: auto;
+        }
+        &:last-of-type {
+          margin-right: auto;
+        }
+      }
+    }
+  }
+
+  .main-nav {
+    flex-grow: 1;
+    align-items: center;
   }
 }
