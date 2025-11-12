@@ -1,6 +1,6 @@
 {
   "name": "@edly-io/wikimedia-frontend-component-footer",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "Footer component for use when building Open edX frontend applications",
   "main": "dist/index.js",
   "publishConfig": {
@@ -8,6 +8,7 @@
   },
   "scripts": {
     "build": "make build",
+    "prepublishOnly": "npm run build",
     "i18n_extract": "fedx-scripts formatjs extract",
     "lint": "fedx-scripts eslint --ext .js --ext .jsx .",
     "lint:fix": "fedx-scripts eslint --fix --ext .js --ext .jsx .",
